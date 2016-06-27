@@ -1,0 +1,112 @@
+/* cheatsheet for keyboard shortcuts */
+
+/*############################################
+ * ########  For Mobil  ######################
+ * ###########################################*/
+
+body {
+	background-color: #dbffd7;
+}
+
+header, article {
+	font-size: 100 %;
+}
+header , nav , article h1 {
+	border-radius: 6px;
+}
+
+nav, section {
+	margin-top: 5px;
+}
+
+article h1 , a {
+	font-size: 120%;
+	padding: 5px;
+}
+
+
+
+/* header*/
+
+header {
+	height: auto;
+	background-color: #434c1b;
+	color: #a2aa80;
+	text-align: center;
+	
+}
+
+div {
+	max-width: 80%;
+}
+
+img {
+	max-width: 15%;
+	float: right;
+	vertical-align: top;
+}
+
+div , img {
+	display:inline-block;
+}
+
+
+
+/* navigation */
+
+nav {
+	background-color: #5b7ca6;
+	height: auto;
+	padding-left: 5%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+
+}
+
+a {
+	margin:auto; 
+	display:block;
+}
+
+a:link {
+	color: #664b1a;
+}
+a:hover {
+	color:#b29050;
+}
+a:visited {
+	color: #244166;
+}
+:visited:hover{
+	color: #b29050;
+}
+
+
+
+/* section et article*/
+
+article {
+	width: auto;
+	margin-bottom: 10px;
+}
+article h1{
+	background-color: #899945;
+}
+
+pre {
+	background-color: #d2e57e;
+	padding: 2px;
+}
+
+
+
+
+
+/*###########################################################
+ * #########################################################
+ * ##########  for other device    #########################
+ * #########################################################
+ * ##########################################################*/
+
+
+
