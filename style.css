@@ -106,7 +106,26 @@ pre {
  * #########################################################
  * ##########  for other device    #########################
  * #########################################################
- * ##########################################################*/
+ * #########################################################*/
 
 
-
+@media screen and (min-width: 860px)
+{
+	pre , article h1 {
+		font-size: 150%;
+	}
+	article, div {
+		text-align: center;
+		display: inline-block;
+		vertical-align: top;
+		height: auto;
+		width: 49%;
+	}
+	div article {
+		display: block;
+		width: 100%;
+	}
+	section {
+		text-align: center;
+	}
+}
